@@ -31,6 +31,14 @@
   color: pink;
 }
 
+.navbar-brand {
+  margin-left: 10%;
+}
+
+.navbar-toggler {
+  margin-right: 10%;
+}
+
 .btn.btn-primary {
   background-color: #eaf0ee;
   color: black;
@@ -50,8 +58,8 @@
 }
 
 .log_reg_btn {
-  position: absolute;
-  top: 25%;
+  position: relative;
+  top: 35%;
   padding: 3px 10px 3px 10px;
   right: 0px;
   border-radius: 0;
@@ -69,7 +77,7 @@
 }
 
 .navbar {
-  height: 90px;
+  height: 120px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
   position: fixed;
@@ -90,10 +98,6 @@
   transition: 0.5s;
   background-color: #fff;
   transform: translateX(0px) translateY(-20px);
-}
-
-.frm__ {
-  width: 550px;
 }
 
 .txt_input {
@@ -134,6 +138,13 @@
   margin: 20px 0 20px 0;
   text-align: center;
   font-size: 4em;
+  font-family: "Great Vibes", cursive;
+}
+
+.title__sub_conent {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 3em;
   font-family: "Great Vibes", cursive;
 }
 
@@ -189,26 +200,17 @@ footer {
   * {
     font-size: 15px;
   }
-
-  .navbar-collapse.collapse.show {
-    background-color: #ffffff;
-
-    border-radius: 20px;
-    height: 230px;
+  .navbar-nav {
+    background: rgb(248, 249, 250);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     width: auto;
-    transition: 0.5s;
+  }
+  .log_reg_btn {
   }
 
   .title__content {
     font-size: 2em;
-  }
-
-  .btn-sign-up,
-  .btn-sign-in,
-  .log_reg_btn {
-    display: flex;
-    justify-content: center;
-    transform: translateY(145px);
   }
 
   .nav-link.header {
@@ -224,19 +226,14 @@ footer {
   .navbar {
     height: 120px;
   }
+  .navbar-brand img {
+    height: 90px;
+  }
 }
 
 @media (max-width: 973px) {
   .nav-link.header {
     border-right: none;
     text-align: center;
-  }
-
-  .btn-sign-up,
-  .btn-sign-in,
-  .log_reg_btn {
-    display: flex;
-    justify-content: center;
-    transform: translateY(145px);
   }
 }

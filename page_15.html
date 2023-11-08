@@ -13,7 +13,7 @@
     <!-- Header -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./page_1.html">
           <img
             src="./img/logo-marriads-removebg-preview.png"
             alt="Logo"
@@ -27,7 +27,7 @@
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
@@ -48,22 +48,22 @@
               >Blog</a
             >
             <a class="nav-link header" href="./page_15.html">Liên hệ</a>
-          </div>
-          <div class="log_reg_btn" role="group">
-            <a
-              href="./page_4.html"
-              target="_blank"
-              class="btn btn-primary btn-sign-in"
-            >
-              Đăng nhập
-            </a>
-            <a
-              href="./page_2.html"
-              target="_blank"
-              class="btn btn-primary btn-sign-up"
-            >
-              Đăng ký
-            </a>
+            <div class="log_reg_btn" role="group">
+              <a
+                href="./page_4.html"
+                target="_blank"
+                class="btn btn-primary btn-sign-in"
+              >
+                Đăng nhập
+              </a>
+              <a
+                href="./page_2.html"
+                target="_blank"
+                class="btn btn-primary btn-sign-up"
+              >
+                Đăng ký
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -120,124 +120,91 @@
     <!-- Slider - Content -->
 
     <!-- Content -->
-    <div class="row">
-      <div class="col"></div>
-      <div class="col-8">
-        <div class="container mt-5">
-          <h2 style="text-align: center">Liên hệ</h2>
-          <form class="frm__ text-center">
-            <div class="txt_input">
-              <input
-                type="text"
-                class="form-control edit_text"
-                id="name"
-                required
-              />
-              <span class="title_label">Họ Tên*</span>
-            </div>
-            <div class="txt_input">
-              <input
-                type="email"
-                class="form-control edit_text"
-                id="email"
-                required
-              />
-              <span class="title_label">Email*</span>
-            </div>
-            <div class="txt_input">
-              <input
-                type="tel"
-                class="form-control edit_text"
-                id="tel"
-                required
-              />
-              <span class="title_label">Số điện thoại*</span>
-            </div>
-            <div class="txt_input">
-              <textarea
-                class="form-control area_input"
-                id="message"
-                rows="5"
-              ></textarea>
-              <span class="title_label">Nội dung liên hệ</span>
-            </div>
-            <!-- Text -->
-            <p>Email: support@marriads.com</p>
-            <p>Zalo: 097 782 073</p>
-            <p>Facebook: <span class="span-facebook">Marriads Vietnam</span></p>
-            <div class="text-center">
-              <button
-                type="submit"
-                class="btn btn-primary"
-                style="width: 150px"
-              >
-                Gửi
-              </button>
-            </div>
-          </form>
+    <div class="container">
+      <h2 style="text-align: center">Liên hệ</h2>
+      <form class="frm__ text-center">
+        <div class="txt_input mx-auto">
+          <input
+            type="text"
+            class="form-control edit_text"
+            id="name"
+            required
+          />
+          <span class="title_label">Họ Tên*</span>
         </div>
-      </div>
-      <div class="col"></div>
+        <div class="txt_input mx-auto">
+          <input
+            type="email"
+            class="form-control edit_text"
+            id="email"
+            required
+          />
+          <span class="title_label">Email*</span>
+        </div>
+        <div class="txt_input mx-auto">
+          <input type="tel" class="form-control edit_text" id="tel" required />
+          <span class="title_label">Số điện thoại*</span>
+        </div>
+        <div class="txt_input mx-auto">
+          <textarea
+            class="form-control area_input"
+            id="message"
+            rows="5"
+          ></textarea>
+          <span class="title_label">Nội dung liên hệ</span>
+        </div>
+        <!-- Text -->
+        <p>Email: support@marriads.com</p>
+        <p>Zalo: 097 782 073</p>
+        <p>Facebook: <span class="span-facebook">Marriads Vietnam</span></p>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary" style="width: 150px">
+            Gửi
+          </button>
+        </div>
+      </form>
     </div>
     <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start">
-      <div class="content_nkcd footer">
-        <div class="container">
-          <div class="row footer">
-            <div class="col footer">
-              <h3>Chính sách</h3>
-            </div>
-            <div class="col footer">
-              <h3>Liên hệ</h3>
-            </div>
-            <div class="col footer">
-              <h3>Thông tin chung</h3>
-            </div>
+    <footer class="bg-light">
+      <!-- Grid container -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto col-3">
+            <h2>Chính sách</h2>
+            <a href="#" style="text-align: left">Chính sách bảo mật</a><br />
+            <a href="#">Chính sách hoàn tiền</a><br />
+            <a href="#">Điều kiện và điều khoản</a>
           </div>
-          <div class="row footer">
-            <div class="col footer">
-              <a href="#" class="text__blog">Chính sách bảo mật</a>
-            </div>
-            <div class="col footer">
-              <p>Email: support@marriads.com</p>
-            </div>
-            <div class="col footer">
-              <p>Công ty TNHH Marriads</p>
-            </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto col-3">
+            <h2>Liên hệ</h2>
+            <p>Email: support@marriads.com</p>
+            <p>Zalo: 0986 893 073</p>
+            <p>Facebook: Marriads Vietnam</p>
           </div>
-          <div class="row footer">
-            <div class="col footer">
-              <a href="#" class="text__blog">Chính sách hoàn tiền</a>
-            </div>
-            <div class="col footer">
-              <p>Zalo: 0986 893 073</p>
-            </div>
-            <div class="col footer">
-              <p>Mã số thuế: 0317830151</p>
-            </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto col-3">
+            <!-- Submit button -->
+            <h2>Thông tin chung</h2>
+            <p>Công ty TNHH Marriads</p>
+            <p>Mã số thuế: 0317830151</p>
+            <p>Nơi cấp: Sở Kế hoạch và Đầu tư TP.HCM</p>
           </div>
-          <div class="row footer">
-            <div class="col footer">
-              <a href="#" class="text__blog">Điều kiện và điều khoản</a>
-            </div>
-            <div class="col contact">
-              <p>
-                Facebook:
-                <span style="border-bottom: 2px solid blue; color: blue"
-                  >Marriads Vietnam</span
-                >
-              </p>
-            </div>
-            <div class="col footer">
-              <p>Nơi cấp: Sở Kế hoạch và Đầu tư TP.HCM</p>
-            </div>
-          </div>
+          <!--Grid column-->
         </div>
       </div>
+      <!-- Grid container -->
+
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2023 Copyright
-        <a class="text-dark" href="https://marriads.com/">Marriads.com</a>
+        © 2023 Copyright:
+        <a class="text-white" href="https://marriads.com/">Marriads.com</a>
       </div>
       <!-- Copyright -->
     </footer>
