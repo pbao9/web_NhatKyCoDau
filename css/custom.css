@@ -133,7 +133,6 @@
 
 /* Content */
 .title__content {
-  background-color: pink;
   padding: 20px 0px 15px 0px;
   margin: 20px 0 20px 0;
   text-align: center;
@@ -146,6 +145,10 @@
   text-align: center;
   font-size: 3em;
   font-family: "Great Vibes", cursive;
+}
+
+.content_nkcd.website-dam-cuoi {
+  height: 530px;
 }
 
 .img__content {
