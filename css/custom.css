@@ -185,11 +185,22 @@
   text-decoration: underline;
 }
 
+.img__ebook {
+  width: 50%;
+  height: 450px;
+  transform: translateX(450px);
+}
+
 /* Content */
 
 /* Footer */
 footer {
   margin-top: 50px;
+}
+
+.col-lg-4 a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* Footer */
@@ -206,11 +217,17 @@ footer {
     border-bottom-left-radius: 15px;
     width: auto;
   }
-  .log_reg_btn {
+  .form-control.edit_text,
+  .txt_input {
+    width: 250px;
   }
 
   .title__content {
     font-size: 2em;
+  }
+
+  .img__ebook {
+    display: none;
   }
 
   .nav-link.header {
@@ -228,6 +245,9 @@ footer {
   }
   .navbar-brand img {
     height: 90px;
+  }
+  .btn.btn-primary.submit-reg-acc {
+    margin-left: 100px;
   }
 }
 
