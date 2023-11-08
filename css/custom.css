@@ -133,13 +133,11 @@
   text-decoration: underline;
 }
 
-
 /* Content */
 
 /* Mobile View */
 
 @media (max-width: 768px) {
-
   .btn-sign-up,
   .btn-sign-in,
   .log_reg_btn {
@@ -154,12 +152,9 @@
     border-right: none;
   }
 
-
   .content_nkcd.website-dam-cuoi {
     height: 370px;
   }
-
-
 }
 
 @media (max-width: 973px) {
