@@ -12,63 +12,116 @@
 
   <body>
     <!-- Header -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="./img/logo-marriads-removebg-preview.png"
-              alt="Logo"
-              width="100%"
-              height="120px"
-            />
-          </a>
-          <button
-            class="navbar-toggler menubar"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/logo-marriads-removebg-preview.png"
+            alt="Logo"
+            width="100%"
+            height="120px"
+          />
+        </a>
+        <button
+          class="navbar-toggler menubar"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a
-                class="nav-link header"
-                aria-current="page"
-                href="./page_1.html"
-                >Trang chủ</a
-              >
-              <a class="nav-link header" href="./page_18.html" target="_blank"
-                >Nhật ký Cô Dâu</a
-              >
-              <a class="nav-link header" href="./page_17.html" target="_blank"
-                >Website Đám Cưới</a
-              >
-              <a class="nav-link header" href="./page_16.html" target="_blank"
-                >Blog</a
-              >
-              <a class="nav-link header" href="./page_15.html">Liên hệ</a>
-            </div>
-            <div class="log_reg_btn" role="group">
-              <button type="button" class="btn btn-primary btn-sign-in">
-                Đăng nhập
-              </button>
-              <button type="button" class="btn btn-primary btn-sign-up">
-                Đăng ký
-              </button>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link header" aria-current="page" href="./page_1.html"
+              >Trang chủ</a
+            >
+            <a class="nav-link header" href="./page_18.html" target="_blank"
+              >Nhật ký Cô Dâu</a
+            >
+            <a class="nav-link header" href="./page_17.html" target="_blank"
+              >Website Đám Cưới</a
+            >
+            <a class="nav-link header" href="./page_16.html" target="_blank"
+              >Blog</a
+            >
+            <a class="nav-link header" href="./page_15.html">Liên hệ</a>
+          </div>
+          <div class="log_reg_btn" role="group">
+            <a
+              href="./page_4.html"
+              target="_blank"
+              class="btn btn-primary btn-sign-in"
+            >
+              Đăng nhập
+            </a>
+            <a
+              href="./page_2.html"
+              target="_blank"
+              class="btn btn-primary btn-sign-up"
+            >
+              Đăng ký
+            </a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <!-- Header -->
+    <!-- Slider - Content -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/banner_trangchu.png"
+            class="d-block w-100"
+            alt="Ảnh thiệp cưới"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/banner_trangchu.png"
+            class="d-block w-100"
+            alt="Ảnh thiệp cưới"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/banner_trangchu.png"
+            class="d-block w-100"
+            alt="Ảnh thiệp cưới"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Slider - Content -->
 
-      <!-- Banner - Content -->
-      <img src="img/banner thiep cuoi.png" alt="" width="100%" />
-      <!-- Content Form -->
+    <!-- Content -->
+    <div class="container">
       <h2 class="title__content">Về chúng tôi</h2>
       <p>
         Marriads là nền tảng thiết kế miễn phí giúp các cô gái chuẩn bị lên xe
@@ -87,11 +140,10 @@
         Marriads mang trong mình sứ mệnh tạo nên những giá trị độc đáo và đem
         lại lợi ích cân bằng cho các bên có liên quan.
       </p>
-      <h2 class="title__content">Nhật Ký Cô Dâu</h2>
 
       <div class="content_nkcd nhat-ky-co-dau">
+        <h2 class="title__content">Nhật Ký Cô Dâu</h2>
         <img src="./img/banner_5.png" alt="" class="img__content banner_5" />
-
         <p>
           Nhật Ký Cô Dâu được lấy cảm hứng từ Nhật Ký Công Chúa, một bộ phim ăn
           khách của Walt Disney do Anne Hathaway giữ vai chính. Là con gái, ai
@@ -112,9 +164,9 @@
           Tạo nhật ký của riêng bạn
         </button>
       </div>
-
-      <img src="./img/banner_3.png" alt="" width="100%" />
-
+    </div>
+    <img src="./img/banner_3.png" alt="" width="100%" class="img_banner_3" />
+    <div class="container">
       <div class="content_nkcd ebook">
         <p>
           Sau khi kết hôn, các cô gái mới ngày nào vẫn còn là công chúa nhỏ của
@@ -193,8 +245,10 @@
         </button>
       </div>
       <div class="content_nkcd diem-noi-bat">
-        <h2 class="title__content">Điểm nội bật của Marriad</h2>
-        <h2 class="title__content text-center">Vòng Quay Hạnh Phúc</h2>
+        <h2 class="title__content" style="background-color: transparent">
+          Điểm nội bật của Marriad
+        </h2>
+        <h2 class="title__content">Vòng Quay Hạnh Phúc</h2>
         <img
           src="img/banner_2.jpg"
           alt=""
@@ -440,48 +494,52 @@
               </p>
             </div>
           </div>
+          <button class="btn btn-primary">Xem toàn bộ bài viết</button>
         </div>
-        <button class="btn btn-primary">Xem toàn bộ bài viết</button>
       </div>
       <br /><br />
-      <div class="content_nkcd contact">
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <div class="content_nkcd footer">
         <div class="container">
-          <div class="row contact">
-            <div class="col contact">
+          <div class="row footer">
+            <div class="col footer">
               <h3>Chính sách</h3>
             </div>
-            <div class="col contact">
+            <div class="col footer">
               <h3>Liên hệ</h3>
             </div>
-            <div class="col contact">
+            <div class="col footer">
               <h3>Thông tin chung</h3>
             </div>
           </div>
-          <div class="row contact">
-            <div class="col contact">
-              <p class="text__blog">Chính sách bảo mật</p>
+          <div class="row footer">
+            <div class="col footer">
+              <a href="#" class="text__blog">Chính sách bảo mật</a>
             </div>
-            <div class="col contact">
+            <div class="col footer">
               <p>Email: support@marriads.com</p>
             </div>
-            <div class="col contact">
+            <div class="col footer">
               <p>Công ty TNHH Marriads</p>
             </div>
           </div>
-          <div class="row contact">
-            <div class="col contact">
-              <p class="text__blog">Chính sách hoàn tiền</p>
+          <div class="row footer">
+            <div class="col footer">
+              <a href="#" class="text__blog">Chính sách hoàn tiền</a>
             </div>
-            <div class="col contact">
+            <div class="col footer">
               <p>Zalo: 0986 893 073</p>
             </div>
-            <div class="col contact">
+            <div class="col footer">
               <p>Mã số thuế: 0317830151</p>
             </div>
           </div>
-          <div class="row contact">
-            <div class="col contact">
-              <p class="text__blog">Điều kiện và điều khoản</p>
+          <div class="row footer">
+            <div class="col footer">
+              <a href="#" class="text__blog">Điều kiện và điều khoản</a>
             </div>
             <div class="col contact">
               <p>
@@ -491,12 +549,19 @@
                 >
               </p>
             </div>
-            <div class="col contact">
+            <div class="col footer">
               <p>Nơi cấp: Sở Kế hoạch và Đầu tư TP.HCM</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright
+        <a class="text-dark" href="https://marriads.com/">Marriads.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
   </body>
 </html>

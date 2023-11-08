@@ -1,17 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
+/* Font chữ tiêu đề */
+/* font-family: 'Great Vibes', cursive; */
+/* Font nội dung  */
+/* font-family: 'Dosis', sans-serif; */
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Playpen Sans", cursive;
-  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+  /* box-sizing: border-box; */
 }
 
 .nav-link.header {
-  border-right: 2px solid #000;
+  text-transform: uppercase;
   height: 40px;
-  color: blue;
-  text-decoration: underline;
+  font-size: 18.5px;
+  font-weight: bold;
+  color: #000;
+  margin-right: 20px;
 }
 
 .nav-link:last-child {
@@ -19,24 +28,30 @@
 }
 
 .nav-link:active {
-  color: blue;
+  color: pink;
 }
 
 .btn.btn-primary {
-  background-color: white;
+  background-color: #eaf0ee;
   color: black;
-  border: 1px solid #000;
-  box-shadow: 4px 4px 0 1px #000;
-  border-radius: 0;
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none;
+}
+
+.btn.btn-primary:hover {
+  background-color: rgb(207, 113, 129);
 }
 
 .btn-sign-in {
-  background-color: #509bd8 !important;
+  background-color: pink !important;
 }
 
 .log_reg_btn {
   position: absolute;
-  top: 0px;
+  top: 25%;
   padding: 3px 10px 3px 10px;
   right: 0px;
   border-radius: 0;
@@ -54,6 +69,9 @@
 }
 
 .navbar {
+  height: 90px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
   position: fixed;
 }
 
@@ -72,6 +90,18 @@
   transition: 0.5s;
   background-color: #fff;
   transform: translateX(0px) translateY(-20px);
+}
+
+.frm__ {
+  width: 550px;
+}
+
+.txt_input {
+  width: 550px;
+}
+
+.form-control.edit_text {
+  width: 550px;
 }
 
 .txt_input .edit_text,
@@ -93,10 +123,18 @@
 .navbar-toggler.menubar:focus {
   box-shadow: none;
 }
+.container {
+  max-width: 80% !important;
+}
 
 /* Content */
 .title__content {
+  background-color: pink;
+  padding: 20px 0px 15px 0px;
   margin: 20px 0 20px 0;
+  text-align: center;
+  font-size: 4em;
+  font-family: "Great Vibes", cursive;
 }
 
 .img__content {
@@ -116,7 +154,10 @@
 .img__content.banner_5 {
   float: right;
 }
-
+.img_banner_3 {
+  object-fit: inherit;
+  height: auto;
+}
 .img__content.website-damcuoi {
   float: left;
   margin-right: 15px;
@@ -124,7 +165,7 @@
 }
 
 .content_nkcd.website-dam-cuoi {
-  height: 400px;
+  height: 530px;
 }
 
 .text__blog {
@@ -135,9 +176,33 @@
 
 /* Content */
 
+/* Footer */
+footer {
+  margin-top: 50px;
+}
+
+/* Footer */
+
 /* Mobile View */
 
 @media (max-width: 768px) {
+  * {
+    font-size: 15px;
+  }
+
+  .navbar-collapse.collapse.show {
+    background-color: #ffffff;
+
+    border-radius: 20px;
+    height: 230px;
+    width: auto;
+    transition: 0.5s;
+  }
+
+  .title__content {
+    font-size: 2em;
+  }
+
   .btn-sign-up,
   .btn-sign-in,
   .log_reg_btn {
@@ -154,6 +219,10 @@
 
   .content_nkcd.website-dam-cuoi {
     height: 370px;
+  }
+
+  .navbar {
+    height: 120px;
   }
 }
 

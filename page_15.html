@@ -11,125 +11,236 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="./img/logo-marriads-removebg-preview.png"
-              alt="Logo"
-              width="100%"
-              height="120px"
-            />
-          </a>
-          <button
-            class="navbar-toggler menubar"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/logo-marriads-removebg-preview.png"
+            alt="Logo"
+            width="100%"
+            height="120px"
+          />
+        </a>
+        <button
+          class="navbar-toggler menubar"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a
-                class="nav-link header"
-                aria-current="page"
-                href="./page_15.html"
-                >Trang chủ</a
-              >
-              <a class="nav-link header" href="./page_18.html" target="_blank"
-                >Nhật ký Cô Dâu</a
-              >
-              <a class="nav-link header" href="./page_17.html" target="_blank"
-                >Website Đám Cưới</a
-              >
-              <a class="nav-link header" href="./page_16.html" target="_blank"
-                >Blog</a
-              >
-              <a class="nav-link header" href="./page_15.html">Liên hệ</a>
-            </div>
-            <div class="log_reg_btn" role="group">
-              <button type="button" class="btn btn-primary btn-sign-in">
-                Đăng nhập
-              </button>
-              <button type="button" class="btn btn-primary btn-sign-up">
-                Đăng ký
-              </button>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link header" aria-current="page" href="./page_1.html"
+              >Trang chủ</a
+            >
+            <a class="nav-link header" href="./page_18.html" target="_blank"
+              >Nhật ký Cô Dâu</a
+            >
+            <a class="nav-link header" href="./page_17.html" target="_blank"
+              >Website Đám Cưới</a
+            >
+            <a class="nav-link header" href="./page_16.html" target="_blank"
+              >Blog</a
+            >
+            <a class="nav-link header" href="./page_15.html">Liên hệ</a>
+          </div>
+          <div class="log_reg_btn" role="group">
+            <a
+              href="./page_4.html"
+              target="_blank"
+              class="btn btn-primary btn-sign-in"
+            >
+              Đăng nhập
+            </a>
+            <a
+              href="./page_2.html"
+              target="_blank"
+              class="btn btn-primary btn-sign-up"
+            >
+              Đăng ký
+            </a>
           </div>
         </div>
-      </nav>
-
-      <!-- Banner - Content -->
-      <img src="img/banner thiep cuoi.png" alt="" width="100%" />
-      <!-- Contact Form -->
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-8">
-          <div class="container mt-5">
-            <h2 style="text-align: center">Liên hệ</h2>
-            <form>
-              <div class="txt_input">
-                <input
-                  type="text"
-                  class="form-control edit_text"
-                  id="name"
-                  required
-                />
-                <span class="title_label">Họ Tên*</span>
-              </div>
-              <div class="txt_input">
-                <input
-                  type="email"
-                  class="form-control edit_text"
-                  id="email"
-                  required
-                />
-                <span class="title_label">Email*</span>
-              </div>
-              <div class="txt_input">
-                <input
-                  type="tel"
-                  class="form-control edit_text"
-                  id="tel"
-                  required
-                />
-                <span class="title_label">Số điện thoại*</span>
-              </div>
-              <div class="txt_input">
-                <textarea
-                  class="form-control area_input"
-                  id="message"
-                  rows="5"
-                ></textarea>
-                <span class="title_label">Nội dung liên hệ</span>
-              </div>
-              <!-- Text -->
-              <p>Email: support@marriads.com</p>
-              <p>Zalo: 097 782 073</p>
-              <p>
-                Facebook: <span class="span-facebook">Marriads Vietnam</span>
-              </p>
-              <div class="text-center">
-                <button
-                  type="submit"
-                  class="btn btn-primary"
-                  style="width: 150px"
-                >
-                  Gửi
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col"></div>
       </div>
+    </nav>
+    <!-- Header -->
+    <!-- Slider - Content -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/banner_trangchu.png"
+            class="d-block w-100"
+            alt="Ảnh thiệp cưới"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/banner_trangchu.png"
+            class="d-block w-100"
+            alt="Ảnh thiệp cưới"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/banner_trangchu.png"
+            class="d-block w-100"
+            alt="Ảnh thiệp cưới"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <br />
+    <!-- Slider - Content -->
+
+    <!-- Content -->
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-8">
+        <div class="container mt-5">
+          <h2 style="text-align: center">Liên hệ</h2>
+          <form class="frm__ text-center">
+            <div class="txt_input">
+              <input
+                type="text"
+                class="form-control edit_text"
+                id="name"
+                required
+              />
+              <span class="title_label">Họ Tên*</span>
+            </div>
+            <div class="txt_input">
+              <input
+                type="email"
+                class="form-control edit_text"
+                id="email"
+                required
+              />
+              <span class="title_label">Email*</span>
+            </div>
+            <div class="txt_input">
+              <input
+                type="tel"
+                class="form-control edit_text"
+                id="tel"
+                required
+              />
+              <span class="title_label">Số điện thoại*</span>
+            </div>
+            <div class="txt_input">
+              <textarea
+                class="form-control area_input"
+                id="message"
+                rows="5"
+              ></textarea>
+              <span class="title_label">Nội dung liên hệ</span>
+            </div>
+            <!-- Text -->
+            <p>Email: support@marriads.com</p>
+            <p>Zalo: 097 782 073</p>
+            <p>Facebook: <span class="span-facebook">Marriads Vietnam</span></p>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                style="width: 150px"
+              >
+                Gửi
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <div class="content_nkcd footer">
+        <div class="container">
+          <div class="row footer">
+            <div class="col footer">
+              <h3>Chính sách</h3>
+            </div>
+            <div class="col footer">
+              <h3>Liên hệ</h3>
+            </div>
+            <div class="col footer">
+              <h3>Thông tin chung</h3>
+            </div>
+          </div>
+          <div class="row footer">
+            <div class="col footer">
+              <a href="#" class="text__blog">Chính sách bảo mật</a>
+            </div>
+            <div class="col footer">
+              <p>Email: support@marriads.com</p>
+            </div>
+            <div class="col footer">
+              <p>Công ty TNHH Marriads</p>
+            </div>
+          </div>
+          <div class="row footer">
+            <div class="col footer">
+              <a href="#" class="text__blog">Chính sách hoàn tiền</a>
+            </div>
+            <div class="col footer">
+              <p>Zalo: 0986 893 073</p>
+            </div>
+            <div class="col footer">
+              <p>Mã số thuế: 0317830151</p>
+            </div>
+          </div>
+          <div class="row footer">
+            <div class="col footer">
+              <a href="#" class="text__blog">Điều kiện và điều khoản</a>
+            </div>
+            <div class="col contact">
+              <p>
+                Facebook:
+                <span style="border-bottom: 2px solid blue; color: blue"
+                  >Marriads Vietnam</span
+                >
+              </p>
+            </div>
+            <div class="col footer">
+              <p>Nơi cấp: Sở Kế hoạch và Đầu tư TP.HCM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright
+        <a class="text-dark" href="https://marriads.com/">Marriads.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
   </body>
 </html>
