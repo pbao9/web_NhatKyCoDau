@@ -10,7 +10,7 @@
     <title>Trang - 1</title>
   </head>
 
-  <body>
+  <body class="main-page">
     <!-- Header -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <a class="navbar-brand" href="./page_1.html">
@@ -69,7 +69,8 @@
     </nav>
     <!-- Header -->
     <!-- Slider - Content -->
-    <div
+    <div class="snow">
+      <div
       id="carouselExampleAutoplaying"
       class="carousel slide"
       data-bs-ride="carousel"
@@ -115,31 +116,41 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+      <img src="./img/wave_banner.png" alt="" class="img__wave-banner" />
     </div>
+    </div>
+    
     <!-- Slider - Content -->
+    <div class="img_wave mx-auto"></div>
 
     <!-- Content -->
     <div class="container">
-      <h2 class="title__content">Về chúng tôi</h2>
-      <p>
-        Marriads là nền tảng thiết kế miễn phí giúp các cô gái chuẩn bị lên xe
-        hoa có thể lưu giữ những kỹ niệm đẹp thời thanh xuân, tặng quà cho khách
-        tha dự tiệc cưới và hỗ trợ họ phương tiện di chuyển từ nhà hàng về nhà.
-      </p>
-      <p>
-        Marriads gồm hai loại hình là trang web là Nhật Ký Cô Dâu và Website đám
-        cưới. Nhật Ký Cô Dâu được thiết kế dành cho những ai muốn chia sẻ về
-        hành trình cuộc đời trước khi bước vào ngưỡng cửa hôn nhân, còn Website
-        Đám Cưới lại phù hợp với các nàng muốn viết nên câu chuyện tình yêu lãng
-        mạn.
-      </p>
-      <p>
-        Được thành lập năm 2023 với sự bắt tay của 1 Marketer và 1 Luật Sư,
-        Marriads mang trong mình sứ mệnh tạo nên những giá trị độc đáo và đem
-        lại lợi ích cân bằng cho các bên có liên quan.
-      </p>
+      <div class="content_nkcd about-us">
+        <h2 class="title__content">Về chúng tôi</h2>
 
-      <div class="content_nkcd nhat-ky-co-dau">
+        <p>
+          Marriads là nền tảng thiết kế miễn phí giúp các cô gái chuẩn bị lên xe
+          hoa có thể lưu giữ những kỹ niệm đẹp thời thanh xuân, tặng quà cho
+          khách tha dự tiệc cưới và hỗ trợ họ phương tiện di chuyển từ nhà hàng
+          về nhà.
+        </p>
+        <p>
+          Marriads gồm hai loại hình là trang web là Nhật Ký Cô Dâu và Website
+          đám cưới. Nhật Ký Cô Dâu được thiết kế dành cho những ai muốn chia sẻ
+          về hành trình cuộc đời trước khi bước vào ngưỡng cửa hôn nhân, còn
+          Website Đám Cưới lại phù hợp với các nàng muốn viết nên câu chuyện
+          tình yêu lãng mạn.
+        </p>
+        <p>
+          Được thành lập năm 2023 với sự bắt tay của 1 Marketer và 1 Luật Sư,
+          Marriads mang trong mình sứ mệnh tạo nên những giá trị độc đáo và đem
+          lại lợi ích cân bằng cho các bên có liên quan.
+        </p>
+      </div>
+    </div>
+
+    <div class="content_nkcd nhat-ky-co-dau">
+      <div class="container">
         <h2 class="title__content">Nhật Ký Cô Dâu</h2>
         <img src="./img/banner_5.png" alt="" class="img__content banner_5" />
         <p>
@@ -163,7 +174,10 @@
         </button>
       </div>
     </div>
-    <img src="./img/banner_3.png" alt="" width="100%" class="img_banner_3" />
+    <div class="container">
+      <img src="./img/banner_3.png" alt="" width="100%" class="img_banner_3" />
+    </div>
+
     <div class="container">
       <div class="content_nkcd ebook">
         <p>
@@ -196,14 +210,15 @@
         </p>
         <button class="btn btn-primary">Tạo tài khoản</button>
       </div>
-
-      <div class="content_nkcd website-dam-cuoi">
+    </div>
+    <div class="content_nkcd website-dam-cuoi">
+      <div class="container">
         <h2 class="title__content">Website đám cưới</h2>
 
         <img
           src="./img/banner_4.png"
           alt=""
-          width="25%"
+          width="100%"
           class="img__content website-damcuoi"
         />
         <p>
@@ -217,19 +232,76 @@
         </p>
         <button class="btn btn-primary">Tạo website của bạn và chàng</button>
       </div>
+    </div>
+
+    <div class="container">
       <div class="content_nkcd step-by-step">
-        <h2 class="title__content">Các bước thực hiện</h2>
+        <h2 class="title__content" style="
+        width: 100%;"">Các bước thực hiện</h2>
         <p>Áp dụng cho Nhật Ký Cô Dâu và Webste Đám Cưới.</p>
         <div class="container">
           <div class="row sbs">
-            <div class="col sbs">Bước 1: Chọn loại hình trang web</div>
-            <div class="col sbs">Bước 2: Chọn mẫu giao diện</div>
-            <div class="col sbs">Bước 3: Tiến hành khởi tạo</div>
+            <div class="col sbs">
+              <div class="box">
+                <img src="./img/step-1.png" alt="" width="20%" />
+                <div class="title_box">
+                  <h5>Bước 1:</h5>
+                  <div class="desc-box">Chọn loại hình trang web</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col sbs">
+              <div class="box">
+                <img src="./img/windows.png" alt="" width="20%" />
+                <div class="title_box">
+                  <h5>Bước 2:</h5>
+                  <div class="desc-box">Chọn mẫu giao diện</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col sbs">
+              <div class="box">
+                <img src="./img/deployment.png" alt="" width="20%" />
+                <div class="title_box">
+                  <h5>Bước 3:</h5>
+                  <div class="desc-box">Tiến hành khởi tạo</div>
+                </div>
+              </div>
+            </div>
+            
           </div>
           <div class="row sbs">
-            <div class="col sbs">Bước 4: Chọn mẫu tent card</div>
-            <div class="col sbs">Bước 5: Điền thông tin đám cưới</div>
-            <div class="col sbs">Bước 6: Xác nhận in và đặt cọc</div>
+            <div class="col sbs">
+              <div class="box">
+                <img src="./img/wedding-invitation.png" alt="" width="20%" />
+                <div class="title_box">
+                  <h5>Bước 4:</h5>
+                  <div class="desc-box">Chọn mẫu tent card</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col sbs">
+              <div class="box">
+                <img src="./img/exam.png" alt="" width="20%" />
+                <div class="title_box">
+                  <h5>Bước 5:</h5>
+                  <div class="desc-box">Điền thông tin đám cưới</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col sbs">
+              <div class="box">
+                <img src="./img/save-money.png" alt="" width="20%" />
+                <div class="title_box">
+                  <h5>Bước 6:</h5>
+                  <div class="desc-box">Xác nhận in và đặt cọc</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <u>Lưu ý:</u>
@@ -293,7 +365,9 @@
           trong thời gian 7 ngày kể từ khi đám cưới kết thúc.
         </p>
       </div>
-      <div class="content_nkcd question">
+    </div>
+    <div class="content_nkcd question">
+      <div class="container">
         <h2 class="title__content">Các câu hỏi thường gặp</h2>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
@@ -460,7 +534,8 @@
           </div>
         </div>
       </div>
-
+    </div>
+    <div class="container">
       <div class="content_nkcd blog">
         <h2 class="title__content">Blog</h2>
         <div class="container text-center">
@@ -493,9 +568,7 @@
           <button class="btn btn-primary">Xem toàn bộ bài viết</button>
         </div>
       </div>
-      <br /><br />
     </div>
-
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light">
       <!-- Grid container -->
