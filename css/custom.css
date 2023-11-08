@@ -161,6 +161,18 @@
 }
 
 /* Content */
+/* Snow Effect*/
+.snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/snow.jpg");
+  background-size: cover;
+}
+/* Snow Effect */
+
 .title__content {
   padding: 20px 0px 15px 0px;
   margin: 20px 0 20px 0;
@@ -175,26 +187,6 @@
   font-size: 3em;
   font-family: "Great Vibes", cursive;
 }
-
-/* .custom_below_text {
-  left: 50px;
-  width: 40%;
-} */
-
-/* .title__content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  column-gap: 0.85em;
-}
-
-.title__content::before,
-.title__content::after {
-  content: "";
-  height: 2px;
-  background-color: #000;
-  display: block;
-} */
 
 .img__content {
   margin-left: 20px;
@@ -298,7 +290,7 @@ footer {
   }
 
   .content_nkcd.website-dam-cuoi {
-    height: 470px;
+    height: 400px;
   }
 
   .img__content.website-damcuoi {
