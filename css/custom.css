@@ -175,10 +175,6 @@
   margin-bottom: 15px;
 }
 
-.content_nkcd.website-dam-cuoi {
-  height: 530px;
-}
-
 .text__blog {
   color: blue;
   width: 100%;
@@ -237,7 +233,7 @@ footer {
   }
 
   .content_nkcd.website-dam-cuoi {
-    height: 370px;
+    height: 420px;
   }
 
   .navbar {
