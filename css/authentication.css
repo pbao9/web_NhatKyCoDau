@@ -1,0 +1,43 @@
+.login-form {
+	padding: 20px 40px !important;
+	position: relative;
+}
+
+.login-form a {
+	text-decoration:none
+}
+
+
+.text-input::placeholder {
+	color: #c0c4cc;
+}
+
+.text-input:focus {
+	outline: none;
+	border-color: var(--bs-primary);
+}
+
+.text-input{
+    width:100%;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px; 
+    color: #606266;
+    padding: 0 15px;
+    height:40px
+}
+
+.form-label {
+	border-radius: 8px;
+	line-height: 16px !important;
+	font-size: 16px;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	padding: 0 7px !important;
+	top: 17px;
+	left: 9px;
+    color: var(--bs-primary)
+}
+
+.el-form-item__label {
+}
