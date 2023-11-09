@@ -6,6 +6,12 @@
 /* Font nội dung  */
 /* font-family: 'Dosis', sans-serif; */
 
+.content_nkcd.about-us {
+  background-image: url("../img/banner-below-text.png");
+  object-fit: cover;
+  background-position: center left;
+}
+
 * {
   margin: 0;
   padding: 0;
