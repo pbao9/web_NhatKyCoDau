@@ -17,10 +17,10 @@
 .nav-link.header {
   text-transform: uppercase;
   height: 40px;
-  font-size: 18.5px;
+  font-size: 17.5px;
   font-weight: bold;
   color: #000;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .nav-link:last-child {
@@ -38,10 +38,17 @@
 .navbar-toggler {
   margin-right: 10%;
 }
-.img__wave-banner {
+
+.img__wave-banner.bottom {
   position: absolute;
   width: 100%;
   top: 85%;
+}
+
+.img__wave-banner.top {
+  position: absolute;
+  width: 100%;
+  top: -3%;
 }
 
 .btn.btn-primary {
@@ -160,6 +167,12 @@
   max-width: 80% !important;
 }
 
+.content_nkcd.about-us {
+  background-image: url("../img/background_below_text.jpg");
+  background-position: center left;
+  object-fit: fill;
+}
+
 /* Content */
 /* Snow Effect*/
 .snow,
@@ -210,6 +223,38 @@
 
 /* Snow Effect */
 
+/* Floating button contact */
+.floating-btn {
+  width: 60px;
+  height: 60px;
+  background: #0866ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: background 0.25s;
+
+  border: none;
+  cursor: pointer;
+}
+
+.floating-btn:active {
+  background-color: black;
+}
+
+.material-icons {
+  display: flex !important;
+  font-size: 60px !important;
+}
+/* Floating button contact */
+
 .title__content {
   padding: 20px 0px 15px 0px;
   margin: 20px 0 20px 0;
@@ -218,7 +263,7 @@
   font-family: "Great Vibes", cursive;
 }
 
-.title__sub_conent {
+.title__sub_content {
   margin-top: 50px;
   text-align: center;
   font-size: 3em;
@@ -349,5 +394,22 @@ footer {
   .nav-link.header {
     border-right: none;
     text-align: center;
+  }
+  .navbar-nav {
+    background: rgb(248, 249, 250);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: auto;
+  }
+
+  .navbar-brand img {
+    width: 70;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  * {
+    font-size: 15px;
   }
 }

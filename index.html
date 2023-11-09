@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="./assests/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="./assests/css/style.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&amp;family=Roboto:wght@500;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header id="header-sticky" class="sticky-top bg-theme">
+        <div>
+            <div class="container-xl">
+                <nav class="navbar navbar-expand-lg navbar-light p-lg-0">
+                    <a href='./index.html' >
+                        <img src='./img/logo-marriads-removebg-preview.png' width='80' class='d-lg-none' />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <!-- <a href='/index.html' >
+                            <img href='/' src='/assests/images/logo.png' width='100' class='d-none d-lg-block' />
+                        </a> -->
+                        <a class="navbar-brand" href="./page_1.html">
+                            <img
+                              src="./img/logo-marriads-removebg-preview.png"
+                              alt="Logo"
+                              width="100%"
+                              height="120px"
+                              class="d-none d-lg-block"
+                            />
+                          </a>
+                        <div class="navbar-nav mb-2 mb-lg-0 align-items-end align-items-lg-center">
+                            <a href="/index.html" class="nav-item nav-link active">Trang chủ</a>
+                            <a href="/diary" class="nav-item nav-link">Nhật ký cô dâu</a>
+                            <a href="/website" class="nav-item nav-link">Website đám cưới</a>
+                            <a href="/blog" class="nav-item nav-link">Blog</a>
+                            <a href="/contact" class="nav-item nav-link">Liên hệ</a>
+                        </div>
+                        <div class="d-flex justify-content-end flex-nowrap log_reg_btn">
+                            <a href="" class="btn btn-primary btn-sign-in">Đăng nhập</a>
+                            <a href="" class="btn btn-primary btn-sign-up">Đăng ký</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container-xxl py-5">
+        <img src='/assests/images/z4853934650081_ff488b37cfbb7401f32ada9cd91ba945.jpg' width='100%' />
+    </div>
+    <div class="container-xxl py-4">
+        <div class="container">
+                <div class=''>
+                    <h2 class="mb-4 fw-semibold text-center text-capitalize">Thông tin đám cưới</h2>
+                    <div class="row gy-3 ">
+                        <form class="row gy-3 pe-0 needs-validation" novalidate>
+                            <div class="col-md-6 pe-0">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" required placeholder="Vd:Thanh Danh - Thùy Trang">
+                                    <label class="fs-6" for="name">Tên cô dâu - Tên chú rể*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-0">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" required placeholder="Vd:15/07/2023 - 11h trưa">
+                                    <label for="mail">Ngày cưới - Thời gian đãi tiệc*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-0">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" required placeholder="Vd:The Adora Center - 431 Hoàng Văn Thụ">
+                                    <label  for="mobile">Tên nhà hàng tiệc cưới - Địa chỉ*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-0">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="770 khách - 77 bàn" required>
+                                    <label for="name">Số lượng khách mời - Bàn tiệc*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-0">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" placeholder="8 triệu/bàn" required>
+                                    <label for="mail">Ngân sách bàn tiệc*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-0">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" placeholder="" required>
+                                    <label  for="mobile">Email và số điện thoại cô dâu*</label>
+                                </div>
+                            </div>
+                        </form>
+                        <a href="/confirm.html" class="col-md-4 mx-md-auto">
+                            <button class="btn btn-primary rounded w-100 py-2" type="submit">Tiếp theo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    © <a class="fw-medium text-light text-decoration-none" href="#">Marriads</a> All
+                    Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a class="fw-medium text-light text-decoration-none" href="https://mevivu.com">
+                        Mevivu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" id="back-to-top" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="assests/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script src="assests/js/index.js"></script>
+</body>
+
+</html>
