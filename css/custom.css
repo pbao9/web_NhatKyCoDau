@@ -13,6 +13,9 @@
   font-family: "Dosis", sans-serif;
   /* box-sizing: border-box; */
 }
+.pb-2 {
+  padding-bottom: 0 !important;
+}
 
 .nav-link.header {
   text-transform: uppercase;
@@ -88,18 +91,6 @@
 
 /* Top */
 
-.img__wave-banner.bottom {
-  position: absolute;
-  width: 100%;
-  top: 85%;
-}
-
-.img__wave-banner.top {
-  position: absolute;
-  width: 100%;
-  top: -3%;
-}
-
 /* Wave */
 
 .btn.btn-primary {
@@ -119,7 +110,8 @@
   background-color: #87c4ff;
 }
 .content_nkcd.website-dam-cuoi {
-  height: 450px;
+  margin-top: 15px;
+  height: 420px;
   background-color: #ffeed9;
 }
 
@@ -134,6 +126,7 @@
 
 .content_nkcd.ebook {
   padding-top: 15px;
+  /* padding-bottom: 15px; */
 }
 
 .btn.btn-primary:hover {
@@ -169,6 +162,8 @@
   background-color: #fff;
   position: fixed;
 }
+
+/* Input text */
 
 .txt_input {
   position: relative;
@@ -211,18 +206,17 @@
   box-shadow: none;
 }
 
+/* Input text */
+
 .navbar-toggler.menubar:focus {
   box-shadow: none;
 }
 .container {
   max-width: 80% !important;
 }
-
-.content_nkcd.about-us {
-  /* background-image: url("../img/peakpx_1.jpg"); */
-  background-position: center right;
-  height: 500px;
-  object-fit: cover;
+.content_nkcd.diem-noi-bat {
+  background-color: #f1eaff;
+  padding-bottom: 15px;
 }
 
 /* Content */
@@ -371,6 +365,14 @@
   transform: translateX(450px);
 }
 
+.content_nkcd.step-by-step {
+  padding-bottom: 30px;
+}
+
+.content_nkcd.step-by-step > .title__content {
+  margin-top: 75px;
+}
+
 /* Content */
 
 /* Footer */
@@ -385,12 +387,53 @@ footer {
 
 /* Footer */
 
-/* Mobile View */
+@media (max-width: 1024px) {
+  .content_nkcd.nhat-ky-co-dau {
+    height: 530px;
+  }
 
+  .content_nkcd.website-dam-cuoi {
+    margin-top: 15px;
+  }
+
+  .img__content.website-damcuoi {
+    transform: none;
+  }
+}
+
+@media (max-width: 973px) {
+  .nav-link.header {
+    border-right: none;
+    text-align: center;
+  }
+  .navbar-nav {
+    background: rgb(248, 249, 250);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: auto;
+  }
+
+  .navbar-brand img {
+    width: 70;
+    height: auto;
+  }
+}
+
+/* Tablet */
 @media (max-width: 768px) {
   * {
     font-size: 15px;
   }
+
+  .content_nkcd.nhat-ky-co-dau {
+    height: 360px;
+  }
+
+  .content_nkcd.ebook {
+    height: auto;
+    margin-bottom: 10px;
+  }
+
   .container {
     max-width: 90% !important;
   }
@@ -420,11 +463,12 @@ footer {
   }
 
   .box img {
-    width: 70%;
+    width: 50%;
+    margin-bottom: 15px;
   }
 
   .content_nkcd.website-dam-cuoi {
-    height: 400px;
+    height: 300px;
   }
 
   .img__content.website-damcuoi {
@@ -440,28 +484,73 @@ footer {
   .btn.btn-primary.submit-reg-acc {
     margin-left: 100px;
   }
+
+  /* Wave Tablet View */
+  /* Top */
+  .custom-shape-divider-top-1699510463 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1699510463 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.1px);
+    height: 50px;
+  }
+
+  .custom-shape-divider-top-1699510463 .shape-fill {
+    fill: #ffffff;
+  }
+
+  /* Top */
+
+  /* Bottom */
+  .custom-shape-divider-bottom-1699510542 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1699510542 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 35px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-bottom-1699510542 .shape-fill {
+    fill: #ffffff;
+  }
+
+  /* Bottom */
+
+  /* Wave Tablet View */
 }
 
-@media (max-width: 973px) {
-  .nav-link.header {
-    border-right: none;
-    text-align: center;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .content_nkcd.nhat-ky-co-dau {
+    height: 560px;
   }
-  .navbar-nav {
-    background: rgb(248, 249, 250);
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: auto;
+  .content_nkcd.nhat-ky-co-dau .img__content {
+    max-width: 40% !important;
+    margin-left: 0;
   }
 
-  .navbar-brand img {
-    width: 70;
-    height: auto;
+  .content_nkcd.website-dam-cuoi {
+    height: 450px;
   }
-}
 
-@media (max-width: 1024px) {
-  * {
-    font-size: 15px;
+  .content_nkcd.website-dam-cuoi .img__content {
+    max-width: 40% !important;
   }
 }
